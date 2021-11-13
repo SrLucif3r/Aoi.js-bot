@@ -4,6 +4,7 @@ const bot = new aoi.Bot({
      prefix: [config.Prefix_1,config.Prefix_2,config.Prefix_3]
 });
 
+
 bot.onMessage({
   guildOnly: false //make commands work in dms
 });
